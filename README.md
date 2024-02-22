@@ -36,17 +36,18 @@ git clone https://www.your-repository.com
 # Activate the Project Virtual Environment
 
 
-Copy code
+
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 Install dependencies into your .venv and freeze into your requirements.txt.
 bash
-Copy code
+
 pip install -r requirements.txt
 Add a useful .gitignore to the root project folder with .vsode/ and .venv/ to prevent adding to the repository.
 Git add, commit, and push to GitHub.
 bash
-Copy code
+
+
 git add .
 git commit -m "initial commit"
 git push origin main
@@ -61,7 +62,8 @@ Create a new notebook in the root project repository named: tmontague_ml.ipynb.
 Add a Markdown cell at the top of the new notebook with Title, Author, and clickable link to the project repository.
 Add Python cell with import statements.
 python
-Copy code
+
+
 import matplotlib
 from matplotlib import pyplot as plt
 import pandas
