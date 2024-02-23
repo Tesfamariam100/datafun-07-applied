@@ -32,9 +32,6 @@ The project involves employing a type of supervised machine learning, simple lin
 #### Clone the repository from the specified URL
 git clone https://www.your-repository.com
 
-#### Create a Project Virtual Environment in the .venv folder
-### Activate the Project Virtual Environment
-
 ### Create a Project Virtual Environment in the .venv folder
 py -m venv .venv
 .venv\Scripts\Activate.ps1
@@ -64,43 +61,33 @@ Add Python cell with import statements.
 python
 
 
-`import matplotlib
-from matplotlib import pyplot as plt
-import pandas
-import pyarrow
-import scipy
-from scipy import stats
-import seaborn as sns
-import sklearn
-from sklearn.model_selection import train_test_split
-import numpy as np`
+- `import matplotlib
+- from matplotlib import pyplot as plt
+- import pandas
+- import pyarrow
+- import scipy
+- from scipy import stats
+- import seaborn as sns
+- import sklearn
+- from sklearn.model_selection import train_test_split
+- import numpy as np`
 
-### Analysis Workflow
-#### CC 7.5: Chart a Straight Line (Part 1)
+## Analysis Workflow
+### CC 7.5: Chart a Straight Line (Part 1)
 Complete section per Project 7 requirements.
 
-##### CC 7.6: Predict Avg High Temp in NYC in January (Part 2)
+### CC 7.6: Predict Avg High Temp in NYC in January (Part 2)
 Complete section per Project 7 requirements for Object-Oriented Programming.
 
-Build a model
-Make predictions
-Visualize the model
-#### CC 7.7: Predict Avg High Temp in NYC in January (Part 3)
-Complete section per Project 7 requirements for Supervised Machine Learning.
-
-Build a model
-Make predictions
-Visualize the model
+- Build a model
+- Make predictions
+- Visualize the model
 #### CC 7.8: Insights (Part 4)
 Complete section per Project 7 requirements.
 
-Publish insights
-Optional Bonus (Part 5)
-Complete section per Project 7 requirements.
-
-Loading the data
-Training and testing the data
-Visualizing the data
+### Loading the data
+- Training and testing the data
+- Visualizing the data
 Choosing the best model from the 4 listed
 ### References & Acknowledgments
 Guided projects in 10.16 and 15.4 of the textbook: "Paul J. Deitel, Harvey Deitel - Intro to Python for Computer Science and Data Science_ Learning to Program with AI, Big Data and The Cloud-Pearson (2020)
